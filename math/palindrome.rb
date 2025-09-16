@@ -7,7 +7,6 @@ class Palindrome
     arr = x.to_s.chars
 
     left_max = arr.length == 2 ? 0 : ((arr.length / 2) - 1)
-    left_index = 0
 
     right_first = left_max
     right_first += (arr.length.odd? ? 2 : 1)
